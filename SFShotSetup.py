@@ -15,10 +15,6 @@ class Projectile(pygame.sprite.Sprite):
         self.speed = shot_speed
         self.damage = shot_damage
         self.phantom = shot_phantom
-        self.x
 
     def damage_deal(self):
         return self.damage
-
-    def move_forward(self, start_pos, direction):
-       while start_pos[0] <
