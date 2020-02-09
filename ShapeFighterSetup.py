@@ -14,10 +14,25 @@ from SFCharacters import *
 screenSize(800, 400)
 setBackgroundImage(os.path.join('images', 'stage_background.png'))
 square = makeSprite('images/square_sprite.png')
-square_x = 200
+square_x = 400
 square_y = 200
 moveSprite(square, square_x, square_y)
 showSprite(square)
+enemy_square = makeSprite('images/enemy_square.png')
+moveSprite(enemy_square, 200, 200)
+showSprite(enemy_square)
+player_projectiles = []
+
+class Projectile(pygame.sprite.Sprite):
+    def __init__(self, shot_x, shot_y, shot_speed, shot_image, shot_damage, shot_phantom):
+        self.sprite = makeSprite((os.path.join('images', shot_image)))
+        self.x = shot_x
+        self.y = shot_y
+        self.speed = shot_speed
+        self.damage = shot_damage
+        self.phantom = shot_phantom
+
+
 
 main = True
 while main:
@@ -46,6 +61,18 @@ while main:
         if 10 < square_y:
             square_y -= 1
             moveSprite(square, square_x, square_y)
+    if keyPressed("space"):
+        player_projectiles.append(Projectile(square_x, square_y, 5, 'player_missile.png', 5, False))
+
+
+    '''
+    if touching(square, enemy_square):
+        hideSprite(enemy_square)
+    if not touching(square, enemy_square):
+        unhideAll()
+    '''
+
+
 
 pygame.quit()
 sys.exit()

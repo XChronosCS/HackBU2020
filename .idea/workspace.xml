@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e938210-2ecc-4e97-960a-4400e5b24c8b" name="Default" comment="Submitting image files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonLifeHacks.py" />
+    <list default="true" id="0e938210-2ecc-4e97-960a-4400e5b24c8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFShotSetup.py" afterPath="$PROJECT_DIR$/SFShotSetup.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShapeFighterSetup.py" afterPath="$PROJECT_DIR$/ShapeFighterSetup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,35 +12,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="PythonLifeHacks.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/PythonLifeHacks.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="4420">
-                    <caret line="316" column="16" lean-forward="false" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="16" />
-                    <folding>
-                      <element signature="e#228#237#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ShapeFighterSetup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShapeFighterSetup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+            <state relative-caret-position="541">
+              <caret line="64" column="81" lean-forward="false" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -77,8 +53,8 @@
       <file leaf-file-name="SFShotSetup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SFShotSetup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -337,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581219031838</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="11:46 PM - Got the square to move around">
+      <created>1581223635103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581223635103</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +390,8 @@
     <MESSAGE value="Added file" />
     <MESSAGE value="Began work on game. Made some basic classes. Subject to revision" />
     <MESSAGE value="Submitting image files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Submitting image files" />
+    <MESSAGE value="11:46 PM - Got the square to move around" />
+    <option name="LAST_COMMIT_MESSAGE" value="11:46 PM - Got the square to move around" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,31 +540,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SFShotSetup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SFConstants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLifeHacks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4420">
-          <caret line="316" column="16" lean-forward="false" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="16" />
-          <folding>
-            <element signature="e#228#237#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,10 +568,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLifeHacks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="316" column="16" lean-forward="false" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="16" />
+          <folding>
+            <element signature="e#228#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFShotSetup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShapeFighterSetup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+        <state relative-caret-position="541">
+          <caret line="64" column="81" lean-forward="false" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
